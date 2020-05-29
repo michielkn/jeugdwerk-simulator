@@ -1,0 +1,64 @@
+.rating {
+    border: #fefefe 1px solid;
+}
+
+.rating-block {
+    padding: 2px 5px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.rating-block .ratings-type {
+    color: #fefefe;
+    margin-right: 1rem;
+    margin-bottom: 0;
+
+}
+
+.ratings-card-header {
+    font-size: 50px;
+    color: #fefefe;
+}
+
+.rating-block .rating-block {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.rating-block .rating-block-rating {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.rating-block .star {
+    cursor: pointer;
+    stroke: #fff;
+}
+
+.rating-block .rating-block-rating .star.selected polygon {
+    fill: #fff;
+}
+
+.rating-block .rating-block-rating.is-voted .star polygon {
+    fill: #fff;
+}
+
+.rating-block .rating-block-rating.is-voted .star.selected ~ .star polygon {
+    fill: transparent;
+}
+
+
+
