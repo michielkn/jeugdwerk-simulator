@@ -1,6 +1,14 @@
-# Run
-* npm run start
-* ./ngrok http 3000
+# Dependency's
+* node https://nodejs.org/en/download/
+* Firebase CLI https://firebase.google.com/docs/cli
 
-# Run online
-* firebase deploy
+# Install
+* npm install
+
+# Run
+* npm run start 
+* In browser: Localhost:3000
+
+# Push online
+* firebase deploy (needs firebase cli)
+
