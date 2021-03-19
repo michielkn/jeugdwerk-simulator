@@ -1,8 +1,8 @@
 export default class TimeUtil {
-    static startTime = new Date('2019-04-18 14:20:00').getTime();
+    static startTime = new Date('2021-04-18 14:20:00').getTime();
 
     static isPassed(minutes){
-        if(minutes == -1){
+        if(minutes === -1){
             return true;
         }
         const inMils = minutes * 60 * 1000;
